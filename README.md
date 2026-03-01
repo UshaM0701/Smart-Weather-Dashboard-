@@ -41,6 +41,7 @@ smart_weather_app/
 ├── requirements.txt
 └── README.md
 
+
 ⚙️ Installation & Setup
 
 1️⃣ Clone the repository
@@ -73,6 +74,7 @@ python app.py
 Then open:
 
 http://127.0.0.1:5000/
+
 🧠 Methodology
 
 Fetch real-time weather data using API.
@@ -107,4 +109,5 @@ To build an affordable and deployable smart weather prediction system that simpl
 
 Usha M
 GitHub: https://github.com/UshaM0701
+
 
