@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Weather Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>☁ SMART WEATHER DASHBOARD</h1>
+
+    <div class="search-box">
+        <input type="text" id="cityInput" value="Mangaluru">
+        <button onclick="predictWeather()">Predict</button>
+        <button onclick="refreshWeather()" class="refresh-btn">Refresh</button>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <h2>Temperature</h2>
+            <p id="temp">-- °C</p>
+        </div>
+
+        <div class="card">
+            <h2>Humidity</h2>
+            <p id="humidity">-- %</p>
+        </div>
+
+        <div class="card">
+            <h2>Pressure</h2>
+            <p id="pressure">-- hPa</p>
+        </div>
+
+        <div class="card">
+            <h2>AQI</h2>
+            <p id="aqi">--</p>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="weatherChart"></canvas>
+    </div>
+
+    <div class="advisory" id="advisoryBox">
+        <h2>Weather Advisory</h2>
+        <p id="advisoryText">No data yet.</p>
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

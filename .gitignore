@@ -1,0 +1,17 @@
+# Environment files
+.env
+
+# Virtual environments
+venv/
+env/
+weather/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model files (optional if large)
+*.pkl
+
+# System files
+.DS_Store

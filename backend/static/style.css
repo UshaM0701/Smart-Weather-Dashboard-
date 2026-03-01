@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.search-box input {
+    padding: 12px;
+    width: 250px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+.search-box button {
+    padding: 12px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.refresh-btn {
+    background-color: #ff9800;
+    color: white;
+}
+
+.search-box button:hover {
+    opacity: 0.9;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    color: black;
+    padding: 25px;
+    width: 220px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+.chart-container {
+    background: white;
+    margin: 50px auto;
+    padding: 30px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+canvas {
+    background: white;
+}
+
+.advisory {
+    background: #ffc107;
+    color: black;
+    padding: 25px;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+}
