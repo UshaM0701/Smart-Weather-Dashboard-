@@ -40,7 +40,9 @@ smart_weather_app/
 ├── templates/        # HTML files
 ├── requirements.txt
 └── README.md
+
 ⚙️ Installation & Setup
+
 1️⃣ Clone the repository
 git clone https://github.com/UshaM0701/Smart-Weather-Dashboard-.git
 cd smart_weather_app
@@ -105,3 +107,4 @@ To build an affordable and deployable smart weather prediction system that simpl
 
 Usha M
 GitHub: https://github.com/UshaM0701
+
